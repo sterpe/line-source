@@ -28,5 +28,7 @@
     "url": "https://github.com/sterpe/line-source/issues"
   },
   "homepage": "https://github.com/sterpe/line-source",
-  "dependencies": {}
+  "dependencies": {
+    "string-source": "^0.1.0"
+  }
 }
