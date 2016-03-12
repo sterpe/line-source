@@ -1,6 +1,6 @@
 PATH := node_modules/.bin:$(PATH)
 NPM=.node_modules/.bin/npm
-NODE_VERSION=$(shell node --version)
+NODE_VERSION=$(shell node --version 2>/dev/null)
 NVMRC=$(shell cat .nvmrc)
 SOURCE_DIR=src
 DIST_DIR=dist

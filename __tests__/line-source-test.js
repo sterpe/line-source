@@ -10,6 +10,7 @@
 const FILE = '..'
 
 jest.dontMock(FILE)
+jest.dontMock('string-source')
 
 describe([
   'LineSource'
