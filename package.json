@@ -1,21 +1,14 @@
 {
   "name": "line-source",
   "version": "0.2.6",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "make": "make $@",
-    "precommit": "make test",
     "test": "make test"
   },
   "devDependencies": {
-    "babel-cli": "^6.5.1",
-    "babel-jest": "^6.0.1",
-    "babel-preset-es2015": "^6.5.0",
-    "husky": "^0.11.1",
     "jasmine-reporters": "^1.0.2",
     "jest-cli": "^0.9.0",
-    "standard": "^6.0.5",
-    "watch": "^0.17.1"
+    "standard": "^6.0.5"
   },
   "description": "It returns a source for a line of text.",
   "repository": {
@@ -29,6 +22,6 @@
   },
   "homepage": "https://github.com/sterpe/line-source",
   "dependencies": {
-    "string-source": "^0.1.0"
+    "string-source": "^0.1.1"
   }
 }
